@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+/**
+ * main - prints "with proper grammar, but the outcome is a piece of art,"
+ * Return: 1 if program fails. 0 otherwise
+ */
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,");
+	return (0);
+}
