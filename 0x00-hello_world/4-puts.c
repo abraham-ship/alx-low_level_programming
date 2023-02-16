@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
- * main - puts("Programming is like building a multilingual puzzle)
+
+/**
+ * main - prints "programming is like building a multilingual puzzle"
+ * Return: 1 if program fails. 0 otherwise
  */
 int main(void)
 {
