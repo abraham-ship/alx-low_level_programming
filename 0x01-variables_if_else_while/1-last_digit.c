@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - prints if value is greater than 5, or the value is zero,
- * or the value is less than 6 and not zero
+ * main - print statements based on conditions
  * Return: 1 if program fails. 0 otherwise
 */
 int main(void)
