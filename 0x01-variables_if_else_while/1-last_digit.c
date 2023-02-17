@@ -14,7 +14,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
 	if (lastDigit > 5)
 	{
 		/* print if value is greater than 5 */
