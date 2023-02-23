@@ -12,14 +12,14 @@ int main(void)
 
 	while (num % 2 == 0)
 	{
-		printf("%d ", 2);
+		/*printf("%d ", 2);*/
 		num = num / 2;
 	}
 	for (j = 3; j <= sqrt(num); j += 2)
 	{
 		while (num % j == 0)
 		{
-			printf("%d ", j);
+			/*printf("%d ", j);*/
 			num = num / j;
 		}
 	}
