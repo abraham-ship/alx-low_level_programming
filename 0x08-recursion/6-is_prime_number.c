@@ -8,7 +8,7 @@
  */
 int prime(int count, int i)
 {
-	if (i % count == 0)
+	if (i % count == 0 || i < 2)
 		return (0);
 	else if (i / count == 1)
 		return (1);
