@@ -6,12 +6,12 @@
  */
 void free_list(list_t *head)
 {
-	list_t *tmp = malloc(sizeof(list_t));
+	list_t *tmp;
 
 	while (head != NULL)
 	{
+		tmp = head;
+		head = head->next;
 		free(tmp);
-		tmp = head->next;
-		head = tmp;
 	}
 }
